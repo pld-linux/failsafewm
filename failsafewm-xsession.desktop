@@ -6,3 +6,4 @@ TryExec=failsafewm
 Name=FailsafeWM
 Comment=A Window manager for REAL minimalists
 Comment[pl]=Zarządca okien dla prawdziwych minimalistów
+# vi: encoding=utf-8
