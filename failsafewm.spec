@@ -7,6 +7,7 @@ License:	GPL
 Group:		X11/Window Managers
 Source0:	http://www.small-window-manager.de/%{name}-%{version}.tgz
 # Source0-md5:	8ec6487cdf585775d9351f626d0de11f
+Source1:	%{name}-xsession.desktop
 URL:		http://www.small-window-manager.de/
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -50,9 +51,10 @@ failsafewm mo¿e nie dzia³aæ najlepiej.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_bindir}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_datadir}/xsessions}
 
 install failsafewm $RPM_BUILD_ROOT%{_bindir}
+install %{SOURCE1} $RPM_BUILD_ROOT%{_datadir}/xsessions/%{name}.desktop
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -61,3 +63,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS
 %attr(755,root,root) %{_bindir}/*
+%{_datadir}/xsessions/%{name}.desktop
