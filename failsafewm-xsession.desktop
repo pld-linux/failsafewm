@@ -3,6 +3,6 @@ Encoding=UTF-8
 Type=XSession
 Exec=failsafewm
 TryExec=failsafewm
-Name=FAILSAFEWM
+Name=FailsafeWM
 Comment=A Window manager for REAL minimalists
 Comment[pl]=Zarz±dca okien dla prawdziwych minimalistów
