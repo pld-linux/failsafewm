@@ -1,5 +1,5 @@
 Summary:	Window manager for REAL minimalists
-Summary(pl):	Menad¿er okien dla prawdziwych minimalistów
+Summary(pl):	Zarz±dca okien dla prawdziwych minimalistów
 Name:		failsafewm
 Version:	0.0.2
 Release:	1
