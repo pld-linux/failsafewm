@@ -25,9 +25,10 @@ something for REAL minimalists.
 
 Usage:
 
-Alt-Tab: cycles windows Alt-F2 : window under mouse can be moved until
-a mouse button is pressed. Alt-F3 : window under mouse can be resized
-until a mouse button is pressed. Alt-F4 : does currently nothing.
+Alt-Tab: cycles windows
+Alt-F2 : window under mouse can be moved until a mouse button is pressed.
+Alt-F3 : window under mouse can be resized until a mouse button is pressed.
+Alt-F4 : does currently nothing.
 Alt-F5 : raise window under mouse cursor
 
 failsafewm may be still instable.
@@ -38,10 +39,12 @@ minimalistów.
 
 U¿ycie:
 
-Alt-Tab: zmienia cyklicznie okna. Alt-F2 : przesuwa okno znajduj±ce
-siê pod kursorem myszy do momentu naci¶niêcia przycisku myszy. Alt-F3
-: zmienia rozmiary okna do momentu naci¶niêcia przycisku myszy. Alt-F4
-: na razie nie robi nic. Alt-F5 : uaktywnia okno pod kursorem.
+Alt-Tab: zmienia cyklicznie okna.
+Alt-F2 : przesuwa okno znajduj±ce siê pod kursorem myszy do momentu
+         naci¶niêcia przycisku myszy.
+Alt-F3 : zmienia rozmiary okna do momentu naci¶niêcia przycisku myszy.
+Alt-F4 : na razie nie robi nic.
+Alt-F5 : uaktywnia okno pod kursorem.
 
 failsafewm mo¿e nie dzia³aæ najlepiej.
 
