@@ -47,7 +47,9 @@ failsafewm mo¿e nie dzia³aæ najlepiej.
 %setup -q -n failsafewm
 
 %build
-%{__make} CFLAGS="%{rpmcflags} %{rpmldflags}"
+%{__make} \
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags} %{rpmldflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
