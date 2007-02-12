@@ -1,5 +1,5 @@
 Summary:	Window manager for REAL minimalists
-Summary(pl):	Zarz±dca okien dla prawdziwych minimalistów
+Summary(pl.UTF-8):   ZarzÄ…dca okien dla prawdziwych minimalistÃ³w
 Name:		failsafewm
 Version:	0.0.2
 Release:	1
@@ -28,20 +28,20 @@ Alt-F5 : raise window under mouse cursor
 
 failsafewm may be still instable.
 
-%description -l pl
-failsafewm jest na pocz±tkowym etapie rozwoju. Co¶ dla prawdziwych
-minimalistów.
+%description -l pl.UTF-8
+failsafewm jest na poczÄ…tkowym etapie rozwoju. CoÅ› dla prawdziwych
+minimalistÃ³w.
 
-U¿ycie:
+UÅ¼ycie:
 
 Alt-Tab: zmienia cyklicznie okna.
-Alt-F2 : przesuwa okno znajduj±ce siê pod kursorem myszy do momentu
-         naci¶niêcia przycisku myszy.
-Alt-F3 : zmienia rozmiary okna do momentu naci¶niêcia przycisku myszy.
+Alt-F2 : przesuwa okno znajdujÄ…ce siÄ™ pod kursorem myszy do momentu
+         naciÅ›niÄ™cia przycisku myszy.
+Alt-F3 : zmienia rozmiary okna do momentu naciÅ›niÄ™cia przycisku myszy.
 Alt-F4 : na razie nie robi nic.
 Alt-F5 : uaktywnia okno pod kursorem.
 
-failsafewm mo¿e nie dzia³aæ najlepiej.
+failsafewm moÅ¼e nie dziaÅ‚aÄ‡ najlepiej.
 
 %prep
 %setup -q -n failsafewm
